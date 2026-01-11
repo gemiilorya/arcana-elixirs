@@ -10,7 +10,7 @@
     <div class="row4">
         @if($products->count() > 0)
             <div class="mb-4">
-            <div class="row">
+            <div class="row mb-4">
                 @foreach($products as $product)
                 <div class="col-md-4">
                     <div class="card-product2">
