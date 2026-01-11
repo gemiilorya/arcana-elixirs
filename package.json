@@ -3,7 +3,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "echo 'Assets loaded from public folder'",
+        "build": "echo 'Assets loaded from public folder' && mkdir -p public/build",
         "dev": "vite"
     },
     "devDependencies": {
