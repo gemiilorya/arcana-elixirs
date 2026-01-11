@@ -9,5 +9,6 @@
     },
     "rewrites": [
         { "source": "/(.*)", "destination": "/api/lambda.php" }
-    ]
+    ],
+    "buildCommand": "npm run build"
 }
