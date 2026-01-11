@@ -10,5 +10,5 @@
     "rewrites": [
         { "source": "/(.*)", "destination": "/api/lambda.php" }
     ],
-    "buildCommand": "npm run build"
+    "buildCommand": "npm run build; mkdir -p database && touch database/database.sqlite"
 }
